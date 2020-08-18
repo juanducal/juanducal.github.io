@@ -1,1 +1,2 @@
-# juanducal.github.io
+# Juan Ducal Vidal - Academic Website
+See my website: 
