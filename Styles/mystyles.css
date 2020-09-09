@@ -240,10 +240,14 @@ hr{border:0;border-top:3px solid #a3949d;margin:20px 0;height: 50px;}
 	.w3-movepurple,.w3-hover-movepurple:hover{color:#fff!important;background-color:#6c0a31!important}
 	.w3-border-movepurple,.w3-hover-border-movepurple:hover{border-color:#6c0a31!important}
 /* Colors I'm adding */
-	.w3-text-amarillo,.w3-hover-text-amarillo:hover{color:#f2a365!important}
-	.w3-text-gris,.w3-hover-text-gris:hover{color:#ececec!important}
-	.w3-text-azulc,.w3-hover-text-azulc:hover{color:#30475e!important}
-	.w3-text-azulo,.w3-hover-text-azulo:hover{color:#222831!important}
+/* Color 1 - Main Links */
+/* Color 2 - Main Text */
+/* Color 3 - Background soft*/
+/* Color $ - Background hard */
+	.w3-text-color1,.w3-hover-text-amarillo:hover{color:#f2a365!important}
+	.w3-text-color2,.w3-hover-text-gris:hover{color:#ececec!important}
+	.w3-color3,.w3-hover-text-azulc:hover{color:#30475e!important}
+	.w3-color4,.w3-hover-text-azulo:hover{color:#222831!important}
 
 
 /* Links */
