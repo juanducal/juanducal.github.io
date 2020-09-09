@@ -244,10 +244,10 @@ hr{border:0;border-top:3px solid #a3949d;margin:20px 0;height: 50px;}
 /* Color 2 - Main Text */
 /* Color 3 - Background soft*/
 /* Color $ - Background hard */
-	.w3-text-color1,.w3-hover-text-amarillo:hover{color:#f2a365!important}
-	.w3-text-color2,.w3-hover-text-gris:hover{color:#ececec!important}
-	.w3-color3,.w3-hover-text-azulc:hover{color:#30475e!important}
-	.w3-color4,.w3-hover-text-azulo:hover{color:#222831!important}
+	.w3-text-color1,.w3-hover-text-color1:hover{color:#f2a365!important}
+	.w3-text-color2,.w3-hover-text-color2:hover{color:#ececec!important}
+	.w3-color3,.w3-hover-color3:hover{color:#30475e!important}
+	.w3-color4,.w3-hover-color4:hover{color:#222831!important}
 
 
 /* Links */
