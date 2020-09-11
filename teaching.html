@@ -101,12 +101,6 @@
 			display: none;
 		}
     </style>
-	
-    <!-- Added for embeded html -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 </head>
     
@@ -160,26 +154,28 @@
 		<div class="w3-container">
 			<div class="w3-content w3-text-color2 w3-padding-64" style="max-width:700px">
 
-				<div data-role="page" id="pageone">
-					<div data-role="header">
-					  <h1>Nested Collapsible Blocks</h1>
-					</div>
-				  
-					<div data-role="main" class="ui-content">
-					  <div data-role="collapsible">
-						<h1>Click me - I'm collapsible!</h1>
-						<p>I'm the expanded content.</p>
-						<div data-role="collapsible">
-						  <h1>Click me - I'm a nested collapsible block!</h1>
-						  <p>I'm the expanded content in the nested collapsible block.</p>
-						</div>
-					  </div>
-					</div>
-				  
-					<div data-role="footer">
-					  <h1>Insert Footer Text Here</h1>
-					</div>
-				  </div> 
+				<ul id="myUL">
+					<li><span class="caret">Beverages</span>
+					  <ul class="nested">
+						<li>Water</li>
+						<li>Coffee</li>
+						<li><span class="caret">Tea</span>
+						  <ul class="nested">
+							<li>Black Tea</li>
+							<li>White Tea</li>
+							<li><span class="caret">Green Tea</span>
+							  <ul class="nested">
+								<li>Sencha</li>
+								<li>Gyokuro</li>
+								<li>Matcha</li>
+								<li>Pi Lo Chun</li>
+							  </ul>
+							</li>
+						  </ul>
+						</li>
+					  </ul>
+					</li>
+				  </ul>
 
 
 				<p>
