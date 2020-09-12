@@ -160,31 +160,59 @@
 					<b>Economics 101</b><br>
 					Bachelor's Degree in Law<br>
 				</p>
+
+				<ul id="myUL">
+					<li><span class="caret">Beverages</span>
+					  <ul class="nested">
+						<li>Water</li>
+						<li>Coffee</li>
+						<li><span class="caret">Tea</span>
+						  <ul class="nested">
+							<li>Black Tea</li>
+							<li>White Tea</li>
+							<li><span class="caret">Green Tea</span>
+							  <ul class="nested">
+								<li>Sencha</li>
+								<li>Gyokuro</li>
+								<li>Matcha</li>
+								<li>Pi Lo Chun</li>
+							  </ul>
+							</li>
+						  </ul>
+						</li>
+					  </ul>
+					</li>
+				  </ul>
 				
 	
 				<span>&nbsp;</span> <button class="collapsible"></button>
 				<div class="content">
 					<p class="w3-margin-left-64">
 					-	Mano <br> &nbsp;<br>
-						<span>&nbsp;</span> <button class="collapsible"></button>
-						<div class="content">
-							<p class="w3-margin-left-64">
-							- <span>&nbsp;</span> Mano 2 <br> &nbsp;<br>
-							 
-							</p>
-							- <span>&nbsp;</span> Mano 3 <br> &nbsp;<br>
-						</div>	
 
+					<ul id="myUL">
+						<li><span class="caret">Beverages</span>
+						  <ul class="nested">
+							<li>Water</li>
+							<li>Coffee</li>
+							<li><span class="caret">Tea</span>
+							  <ul class="nested">
+								<li>Black Tea</li>
+								<li>White Tea</li>
+								<li><span class="caret">Green Tea</span>
+								  <ul class="nested">
+									<li>Sencha</li>
+									<li>Gyokuro</li>
+									<li>Matcha</li>
+									<li>Pi Lo Chun</li>
+								  </ul>
+								</li>
+							  </ul>
+							</li>
+						  </ul>
+						</li>
+					  </ul>
 					</p>
-
-					<span>&nbsp;</span> <button class="collapsible"></button>
-					<div class="content">
-						<p class="w3-margin-left-64">
-						- <span>&nbsp;</span>	Mano 4 <br> &nbsp;<br>
-						</p>
-						- <span>&nbsp;</span> Mano 5 <br> &nbsp;<br>
-					</div>	
-
 				</div>
 			
 				try 4
@@ -252,6 +280,18 @@
 			} 
 		  });
 		}
+	</script>
+
+	<script>
+		var toggler = document.getElementsByClassName("caret");
+		var i;
+
+		for (i = 0; i < toggler.length; i++) {
+  			toggler[i].addEventListener("click", function() {
+    		this.parentElement.querySelector(".nested").classList.toggle("active");
+    		this.classList.toggle("caret-down");
+  		});
+	}
 	</script>
 	
 </html> 
